@@ -2,7 +2,7 @@
   "name": "test-ppr-nd",
   "version": "1.0.3",
   "description": "",
-  "main": "src/index.js",
+  "main": "build/index.js",
   "scripts": {
     "build": "babel src -d build"
   },
