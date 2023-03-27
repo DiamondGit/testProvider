@@ -1,5 +1,2 @@
-const myFunc = () => {
-    console.log(`--- Hello ---`);
-}
-
+import { myFunc } from "./someOther";
 module.exports = myFunc;
