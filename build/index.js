@@ -1,7 +1,9 @@
 "use strict";
 
-var myFunc = function myFunc() {
-    console.log("--- Hello ---");
-};
+var _someOther = require("./someOther");
 
-module.exports = myFunc;
+(0, _someOther.myFunc)();
+
+module.exports = {
+    main: _someOther.myFunc
+};

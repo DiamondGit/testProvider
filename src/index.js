@@ -1,2 +1,7 @@
 import { myFunc } from "./someOther";
-module.exports = myFunc;
+
+myFunc();
+
+module.exports = {
+    main: myFunc,
+};
