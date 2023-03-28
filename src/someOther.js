@@ -1,3 +1,3 @@
 export const myFunc = () => {
-    console.log(`--- Hello ---`);
+    console.log(`--- myFunc ---`);
 }

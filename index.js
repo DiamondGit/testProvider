@@ -1,2 +1,5 @@
-module.exports = require("./dist/main");
- 
+const somef = require("./dist/index");
+
+console.log(`--- index ---`);
+
+module.exports = somef;

@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("--- myFunc ---"),console.log("--- index myFunc ---")})();
