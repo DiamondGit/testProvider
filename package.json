@@ -2,10 +2,9 @@
   "name": "test-ppr-nd",
   "version": "1.0.5",
   "description": "",
-  "main": "build/index.js",
-  "type": "module",
+  "main": "index.js",
   "scripts": {
-    "build": "babel src -d build"
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +25,9 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-latest": "^6.24.1"
+  },
+  "dependencies": {
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1"
   }
 }

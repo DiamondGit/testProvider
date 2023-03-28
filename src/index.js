@@ -1,7 +1,3 @@
 import { myFunc } from "./someOther";
 
-myFunc();
-
-module.exports = {
-    main: myFunc,
-};
+export default myFunc;
