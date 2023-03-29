@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("--- myFunc ---"),console.log("--- index myFunc ---")})();
+(()=>{var r={138:r=>{r.exports=()=>{console.log("--- Hello ---")}}},o={};!function e(t){var s=o[t];if(void 0!==s)return s.exports;var n=o[t]={exports:{}};return r[t](n,n.exports,e),n.exports}(138)})();

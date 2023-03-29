@@ -1,6 +1,5 @@
-import { myFunc } from "./someOther";
+const myFunc = () => {
+    console.log(`--- Hello ---`);
+}
 
-myFunc();
-console.log(`--- index myFunc ---`);
-
-export default myFunc;
+module.exports = myFunc;

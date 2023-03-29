@@ -22,10 +22,6 @@
     "url": "https://github.com/DiamondGit/testProvider/issues"
   },
   "homepage": "https://github.com/DiamondGit/testProvider#readme",
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-latest": "^6.24.1"
-  },
   "dependencies": {
     "webpack": "^5.76.3",
     "webpack-cli": "^5.0.1"
