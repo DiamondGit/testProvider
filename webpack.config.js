@@ -4,7 +4,7 @@ module.exports = {
     mode: "production",
     entry: path.resolve(__dirname, "src/index.js"),
     output: {
-        filename: "index.js",
+        filename: "index_bundle.js",
         path: path.resolve(__dirname, "dist"),
         library: "test-ppr-nd",
         libraryTarget: "umd",
