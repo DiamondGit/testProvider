@@ -1,5 +1,7 @@
+import otherFunc from "./src/someOtherAction";
+
 const myFunction = () => {
     console.log(`--- HELLO ---`);
 };
 
-module.exports = { myFunction };
+module.exports = { myFunction, otherFunc };
