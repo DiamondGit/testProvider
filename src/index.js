@@ -1,5 +1,9 @@
-const myFunc = () => {
+export const myFunc = () => {
     console.log(`--- Hello ---`);
 }
 
-module.exports = myFunc;
+const myDefaultFunc = () => {
+    console.log(`--- Def Hello ---`);
+}
+
+export default myDefaultFunc;
