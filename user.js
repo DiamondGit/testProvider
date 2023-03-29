@@ -1,3 +1,4 @@
-import { myDefaultFunc } from "./dist/index.js";
+import { myDefaultFunc as SS } from ".";
+// const SS = require(".");
 
-myDefaultFunc();
+console.log(SS);
