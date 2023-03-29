@@ -2,4 +2,4 @@ const otherFunc = () => {
     console.log(`--- OTHER ---`);
 }
 
-exports = otherFunc;
+export default otherFunc;

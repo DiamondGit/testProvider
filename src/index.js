@@ -1,7 +1,7 @@
-const otherFunc = require("./someOtherAction");
+import otherFunc from "./someOtherAction";
 
 const myFunction = () => {
-    console.log(`--- HELLO ---`);
+    console.log(`--- HELLO ---`); 
 };
 
 module.exports = { myFunction, otherFunc };
