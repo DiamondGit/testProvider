@@ -7,11 +7,18 @@
         "type": "git",
         "url": "git+https://github.com/DiamondGit/testProvider.git"
     },
+    "scripts": {
+        "build": "webpack"
+    },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/DiamondGit/testProvider/issues"
     },
-    "homepage": "https://github.com/DiamondGit/testProvider#readme"
+    "homepage": "https://github.com/DiamondGit/testProvider#readme",
+    "devDependencies": {
+        "webpack": "^5.76.3",
+        "webpack-cli": "^5.0.1"
+    }
 }
