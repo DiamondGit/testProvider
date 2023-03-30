@@ -4,4 +4,4 @@ const myFunction = () => {
     console.log(`--- HELLO ---`); 
 };
 
-module.exports = { myFunction, otherFunc };
+export default { myFunction, otherFunc };

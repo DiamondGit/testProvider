@@ -9,7 +9,7 @@ module.exports = {
         libraryTarget: "commonjs2",
         clean: true,
     },
-    // experiments: {
-    //     outputModule: true,
-    // },
+    experiments: {
+        outputModule: true,
+    },
 };

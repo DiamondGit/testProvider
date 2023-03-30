@@ -1,11 +1,1 @@
-"use strict";
-
-var _someOtherAction = _interopRequireDefault(require("./someOtherAction"));
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-var myFunction = function myFunction() {
-  console.log("--- HELLO ---");
-};
-module.exports = {
-  myFunction: myFunction,
-  otherFunc: _someOtherAction["default"]
-};
+var e={d:(o,t)=>{for(var r in t)e.o(t,r)&&!e.o(o,r)&&Object.defineProperty(o,r,{enumerable:!0,get:t[r]})},o:(e,o)=>Object.prototype.hasOwnProperty.call(e,o),r:e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})}},o={};e.r(o),e.d(o,{default:()=>t});const t={myFunction:()=>{console.log("--- HELLO ---")},otherFunc:()=>{console.log("--- OTHER ---")}};module.exports=o;
